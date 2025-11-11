@@ -79,7 +79,7 @@ const handleClose=()=>{
 
 
 { showModal && <div id="my_modal_1" className="modal modal-top modal-open " >
-  <div className="modal-box w-[50%]  mx-auto rounded-none">
+  <div className="modal-box w-[80%]  mx-auto rounded-none">
     <h3 className="font-bold text-lg">Url Here..</h3>
     <input type="text" placeholder="Enter a caption" className="input w-full mt-2"  onChange={(e)=>setVideoDetails({...videoDetails,caption:e.target.value})}/>
     <input type="text" placeholder="Enter image url" className="input w-full mt-2"  onChange={(e)=>setVideoDetails({...videoDetails,imageUrl:e.target.value})}/>
