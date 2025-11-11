@@ -13,12 +13,9 @@ export const Header = () => {
       <ul
         tabIndex={0}
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-        <li><a href="">Item 1</a></li>
-        <li>
-          <a href="">Parent</a>
-          
-        </li>
-        <li><a href="">Item 3</a></li>
+      <li><Link to={'/'}  className="hover:before:content-['•'] hover:before:px-1 hover:text-green-600 transition-all duration-1000 ">Home</Link></li>
+      <li><Link to={'/features'}  className="hover:before:content-['•'] hover:before:px-1 hover:text-green-600 transition-all duration-1000">Features</Link></li>
+      <li><Link to={'/about'} className="hover:before:content-['•'] hover:before:px-1 hover:text-green-600 transition-all duration-1000">About</Link></li>
       </ul>
     </div>
     <div className="flex justify-center sm:justify-start w-full">
